@@ -1,0 +1,30 @@
+.oll {
+    width: 750px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px 0 20px 0;
+}
+.history {
+    width: 350px;
+    margin: 0 auto;
+    -webkit-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.75);
+    padding: 0 0 20px 0 ;
+}
+.img {
+    width: 100%;
+}
+.text h3 {
+    font-family: sans-serif;
+}
+
+.text p {
+    font-family: sans-serif;
+    color: gray;
+
+}
+
+.text {
+    margin: 10px 30px;
+}
