@@ -1,0 +1,50 @@
+.container:hover {
+    -moz-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+}
+.container{
+    width: 250px;
+    margin: 0 auto;
+    -webkit-box-shadow: 5px 5px 25px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 25px 0 rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 25px 0 rgba(0,0,0,0.75);
+    padding: 0 0 20px 0 ;
+}
+.img {
+    width: 100%;
+    transition: all;
+}
+.img:hover {
+    transform: rotate(5deg);
+    transition-duration: 0.2s;
+}
+.text h2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.text p {
+    font-family: sans-serif;
+    color: gray;
+}
+.text {
+    margin: 10px 30px;
+}
+button {
+    margin: 50px;
+    height: 45px;
+    width: 150px;
+    background: #0E1116;
+    color: white;
+}
+div button:hover {
+    transform: scale(1.5);
+    background: red;
+    border: none;
+    transition-duration: 0.2s;
+}
+.text h2:hover {
+    transform: scale(1.5);
+    transition-duration: 0.3s;
+    color: red;
+}

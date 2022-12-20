@@ -1,0 +1,8 @@
+body:hover {
+    float: left;
+    color: red;
+    border-left: 10px solid #f40;
+    padding: 3px 15px 3px;
+    text-align: center;
+    background-color: aqua;
+}

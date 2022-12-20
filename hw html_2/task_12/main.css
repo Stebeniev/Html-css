@@ -1,0 +1,30 @@
+.container {
+    border: 3px solid black;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper {
+    background: yellow;
+    width: 240px;
+    height: 80px;
+    text-align: center;
+}
+.position {
+    background: green;
+    width: 240px;
+    height: 80px;
+    text-align: center;
+}
+.container {
+    flex-direction: initial;
+}
+.wrapper {
+    width: 500px;
+}
+.container {
+    width: 268px;
+}
+
+
+

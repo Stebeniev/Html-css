@@ -1,0 +1,49 @@
+table {
+    width: 400px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    table-layout: fixed;
+    margin: 150px auto 0 auto;
+}
+
+td {
+    border: 2px solid black;
+}
+th {
+    border: 2px solid black;
+}
+
+caption {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 25px;
+}
+th:nth-child(1) {
+    width: 60%;
+}
+th:nth-child(2) {
+    width: 30%;
+}
+th:nth-child(3) {
+    width: 20%;
+}
+th, td {
+    padding: 8px;
+}
+table thead tr {
+    background-color: #0E1116;
+    color: white;
+    text-align: center;
+}
+table tbody td {
+    text-align: center;
+}
+table tbody th {
+    text-align: left;
+}
+table tbody th {
+    font-weight: normal;
+}
+
+
+

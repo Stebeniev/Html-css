@@ -1,0 +1,35 @@
+.container {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    margin: 250px auto 0 auto;
+    text-align: center;
+    -webkit-box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.75);
+}
+input[type="text"], input[type="email"]{
+    width: 350px;
+    height: 45px;
+    font-size: 18px;
+    margin: 15px auto 15px auto;
+    padding-left: 15px;
+}
+.message{
+    padding-top: 15px;
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+    resize: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.submit{
+    padding: 23px 60px;
+    margin: auto;
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    border: none;
+}

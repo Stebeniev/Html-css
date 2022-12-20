@@ -1,0 +1,32 @@
+.gallery {
+    width: 500px;
+    height: 500px;
+    font-size: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-flow: row wrap;
+    display: flex;
+    padding: 10px;
+    background: white;
+    -webkit-box-shadow: 4px 6px 16px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 6px 16px 5px rgba(0,0,0,0.75);
+    box-shadow: 4px 6px 16px 5px rgba(0,0,0,0.75);
+    margin: 60px auto 60px auto;
+    border-radius: 10px;
+    position: relative;
+}
+.gallery div {
+    flex: auto;
+    margin: 10px;
+}
+.gallery div img {
+    padding: 13px;
+    -webkit-box-shadow: 2px 5px 17px 5px rgba(222,16,222,0.72);
+    -moz-box-shadow: 2px 5px 17px 5px rgba(222,16,222,0.72);
+    box-shadow: 2px 5px 17px 5px rgba(222,16,222,0.72);
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+
+
+}

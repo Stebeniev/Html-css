@@ -1,0 +1,20 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    background: url("https://st.depositphotos.com/1899425/1623/i/950/depositphotos_16232649-stock-photo-moraine-lake-sunrise-colorful-landscape.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+.gradient {
+    background: linear-gradient(90deg, rgba(228,255,0,0.4990371148459384) 0%, rgba(255,0,18,0.5046393557422969) 13%, rgba(255,0,224,0.6895133053221288) 33%, rgba(154,0,255,0.10688025210084029) 48%);
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
