@@ -1,34 +1,38 @@
-.container {
-    border: 3px solid black;
-    height: 90vh;
+
+.group{
     display: flex;
     flex-direction: column;
 }
-.wrapper {
-    background: yellow;
-    width: 240px;
-    height: 80px;
-    text-align: center;
+.yellow{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    margin: 0;
 }
-.position {
-    background: green;
-    width: 240px;
-    height: 80px;
-    text-align: center;
+.green{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: 0;
 }
-.container {
-    flex-direction: initial;
-}
-.wrapper {
-    width: 500px;
-}
-.container {
-    width: 268px;
-}
-@media all and (max-width: 500px) {
-    body {
-        ;
+@media screen and (max-width: 768px) {
+    .group{
+        display: flex;
+        flex-direction: row;
+    }
+    .yellow{
+        width: 450px;
+        /*flex: 2;*/
+        height: 400px;
+        background-color: yellow;
+
+    }
+    .green{
+        width: 150px;
+        /*flex: 3;*/
+        height: 400px;
+        background-color: green;
+
     }
 }
-
 
