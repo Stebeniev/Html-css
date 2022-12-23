@@ -25,6 +25,10 @@
 .container {
     width: 268px;
 }
-
+@media all and (max-width: 500px) {
+    body {
+        ;
+    }
+}
 
 

@@ -16,21 +16,35 @@
 }
 .group{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .green{
-    flex: 2;
-    height: 300px;
+    /*flex: 2;*/
+    height: 100px;
     background-color: green;
     margin: 10px;
 }
 .blue{
-    flex: 3;
-    height: 300px;
+    /*flex: 3;*/
+    height: 100px;
     background-color: blue;
     margin: 10px;
 }
 @media screen and (max-width: 768px) {
-
-
+    .group{
+        display: flex;
+        flex-direction: row;
+    }
+    .green{
+        flex: 2;
+        height: 300px;
+        background-color: green;
+        margin: 10px;
+    }
+    .blue{
+        flex: 3;
+        height: 300px;
+        background-color: blue;
+        margin: 10px;
+    }
 }
