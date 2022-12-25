@@ -76,7 +76,7 @@ form{
     width: 500px;
 }
 .male_female {
-    flex: 30;
+    flex:30;
     margin-left: 10px;
 }
 .male_female div {
@@ -85,6 +85,7 @@ form{
 .male_female input {
     text-align: right;
     height: 12px;
+
 }
 .male_female label {
     display: flex;

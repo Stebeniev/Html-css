@@ -1,7 +1,7 @@
 // ---------block _2 case_1---------
 
-// const name= 'Vasya';
-// console.log(typeof name, ' Hello', name);
+// const name = 'Vasya';
+// console.log(typeof name, ' Hello', name)
 
 
 // ---------case_2---------
