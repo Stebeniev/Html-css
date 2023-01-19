@@ -47,3 +47,24 @@ submit.addEventListener("click", () => {
         addNewTodo(todo);
     }
 });
+async function todoUpdate(body, completed) {
+    let data = {
+        body: body,
+        completed: completed
+    }
+    let response = await fetch("http://127.0.0.1:8080/todo/", {
+        method: 'PATCH',
+        body: JSON.stringify(data),
+        headers: {'Content-Type': 'application/json; charset=utf-8'},
+    });
+}
+
+async function todoDelete(id) {
+    let response = await fetch("http://127.0.0.1:8080/todo" + '/' + id, {
+        method: 'DELETE',
+        headers: {'Content-Type': 'application/json; charset=utf-8'},
+    });
+    if (response.ok) {
+        document.getElementById("${id}").remove();
+    }
+}
